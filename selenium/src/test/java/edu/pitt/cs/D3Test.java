@@ -43,7 +43,6 @@ public class D3Test {
 
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
-    driver = new ChromeDriver(options);
   }
   @After
   public void tearDown() {
